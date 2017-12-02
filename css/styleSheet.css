@@ -1,0 +1,40 @@
+graph{
+    /*fill-color:#eaeaea, #b5b5b5;*/
+    /*fill-mode:gradient-radial;*/
+    fill-color:black;
+    fill-mode:plain;
+}
+node {
+    size: 25px;
+    /*z-index:1;*/
+    fill-color: #3349f0;
+    stroke-color:#9aa4ed;
+    stroke-mode:plain;
+    stroke-width:3px;
+    shadow-mode:gradient-radial;
+    shadow-color:#f4f5fc, #0d0d0e;
+    shadow-width:10px;
+    shadow-offset:0px;
+    text-mode:normal;
+    text-style:bold;
+    /*size-mode:fit;*/
+    text-size: 20px;
+    /*text-alignment:at-right;*/
+    text-visibility-mode:normal;
+    text-color:white;
+    /*text-padding: 5;*/
+    /*text-background-color: #fff7bc;*/
+}
+edge {
+    shape: angle;
+    size:8px;
+    fill-color: #9aa4ed;
+    z-index: 0;
+    text-alignment: along;
+    text-color:white;
+    /*text-style:bold;*/
+    text-size: 15px;
+    text-mode:normal;
+}
+
+
